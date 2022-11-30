@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--*Custom CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <title>paraMiCrush</title>
+</head>
+<body>
+    <div id="question">
+        <h1>¿Do you want to be my girlfriend?</h1>
+        <audio id="introSong" controls autoplay>
+            <source id="intSong" src="./assets/Jet  Are You Gonna Be My Girl.mp3" type="audio/mp3"> 
+        </audio>
+        <h1>Please say yes</h1>
+        <div class="buttons">
+            <button id="static" onclick=success()>YES</button>
+            <button id="dynamic">no</button>
+        </div>
+    </div>
+    <section id="answer">
+        <h1>I now it!!!</h1>
+        <video id="suVid" width="600" height="350" controls autoplay >
+            <source src="./assets/DoYouWant.mp4" type="video/mp4" autoplay = 'true'>
+        </video>
+        <h1>You love me!</h1>
+    </section>
+</body>
+<script src="./main.js"></script>
+</html>
